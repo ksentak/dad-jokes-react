@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Joke from './Joke';
 import axios from 'axios';
 import './JokeList.css';
 
@@ -17,7 +18,7 @@ class JokeList extends Component {
       let res = await axios.get('https://icanhazdadjoke.com/', {
         headers: { Accept: 'application/json' },
       });
-      jokes.push(res.data.joke);
+      jokes.push({ text: res.data.joke, votes: 0 });
     }
     this.setState({ jokes: jokes });
   }
@@ -36,7 +37,7 @@ class JokeList extends Component {
         </div>
         <div className='JokeListJokes'>
           {this.state.jokes.map((j) => (
-            <div>{j}</div>
+            <Joke votes={j.votes} text={j.text} />
           ))}
         </div>
       </div>
