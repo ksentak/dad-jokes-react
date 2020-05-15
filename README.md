@@ -2,7 +2,7 @@
 
 ##### Deployed App:
 
-https://github.io/ksentak/dad-jokes-react/
+https://ksentak.github.io/dad-jokes-react/
 
 ---
 

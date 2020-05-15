@@ -2,7 +2,7 @@
   "name": "dad-jokes-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/ksentak/dad-jokes-react/",
+  "homepage": "https://ksentak.github.io/dad-jokes-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
