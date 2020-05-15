@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ksentak/dad-jokes-react/static/css/main.42a34971.chunk.css",
+    "main.js": "/ksentak/dad-jokes-react/static/js/main.7417cb1f.chunk.js",
+    "main.js.map": "/ksentak/dad-jokes-react/static/js/main.7417cb1f.chunk.js.map",
+    "runtime-main.js": "/ksentak/dad-jokes-react/static/js/runtime-main.d82add17.js",
+    "runtime-main.js.map": "/ksentak/dad-jokes-react/static/js/runtime-main.d82add17.js.map",
+    "static/js/2.8656aa60.chunk.js": "/ksentak/dad-jokes-react/static/js/2.8656aa60.chunk.js",
+    "static/js/2.8656aa60.chunk.js.map": "/ksentak/dad-jokes-react/static/js/2.8656aa60.chunk.js.map",
+    "index.html": "/ksentak/dad-jokes-react/index.html",
+    "precache-manifest.e3f8142cc7b97b19f964a6fa8a56615c.js": "/ksentak/dad-jokes-react/precache-manifest.e3f8142cc7b97b19f964a6fa8a56615c.js",
+    "service-worker.js": "/ksentak/dad-jokes-react/service-worker.js",
+    "static/css/main.42a34971.chunk.css.map": "/ksentak/dad-jokes-react/static/css/main.42a34971.chunk.css.map",
+    "static/js/2.8656aa60.chunk.js.LICENSE.txt": "/ksentak/dad-jokes-react/static/js/2.8656aa60.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d82add17.js",
+    "static/js/2.8656aa60.chunk.js",
+    "static/css/main.42a34971.chunk.css",
+    "static/js/main.7417cb1f.chunk.js"
+  ]
+}
