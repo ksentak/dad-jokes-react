@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Joke from './Joke';
+import Joke from '../Joke/Joke';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 // CSS
