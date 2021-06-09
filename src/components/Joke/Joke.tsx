@@ -4,8 +4,8 @@ import './Joke.css';
 interface JokeListProps {
   votes: number;
   text: string;
-  upvote: number;
-  downvote: number;
+  upvote: any;
+  downvote: any;
 }
 
 const Joke: React.FC<JokeListProps> = ({ votes, text, upvote, downvote }) => {
@@ -48,11 +48,11 @@ const Joke: React.FC<JokeListProps> = ({ votes, text, upvote, downvote }) => {
   return (
     <div className='Joke'>
       <div className='JokeButtons'>
-        <i className='fas fa-arrow-up' onClick={() => upvote} />
+        <i className='fas fa-arrow-up' onClick={upvote} />
         <span className='JokeVotes' style={{ borderColor: getColor() }}>
           {votes}
         </span>
-        <i className='fas fa-arrow-down' onClick={() => downvote} />
+        <i className='fas fa-arrow-down' onClick={downvote} />
       </div>
       <div className='JokeText'>{text}</div>
       <div className='JokeSmiley'>
