@@ -1,14 +1,13 @@
 import React from 'react';
 import JokeList from './components/JokeList/JokeList';
-
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className='App'>
+    <div className="App">
       <JokeList />
     </div>
   );
-}
+};
 
 export default App;
